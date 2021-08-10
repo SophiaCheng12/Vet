@@ -1,0 +1,172 @@
+/* css reset */
+*{
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* / HTML5 display-role reset for older browsers */ */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+} 
+ ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+
+
+
+
+/* dr.vet */
+.nav{
+    height:13.85rem;
+    border-bottom:23px solid #E5E5E5;
+  }
+
+.brand{ 
+    height:6.88rem; 
+    border:1px solid #E5E5E5; 
+    width:100%;  
+    /* border:1px solid purple; */
+} 
+
+.navbarBrand{
+  display:inline-block;
+  margin: 0 auto;
+  /* border:1px solid blue; */
+  /* position:absolute;
+  left: 40rem;
+  top:2rem; */
+ /* margin-left:38.43rem; */
+}
+
+.totalBrandBtn{
+    display:flex;
+    margin-top:2.81rem;
+}
+
+.brandBtn{ 
+     width:6.31rem;
+     height:2.8rem;
+     border-radius:5px;
+     color:#FAFAFA;
+     font-weight: 700;
+     font-family:'roboto';
+     font-size:1.5rem;
+     border:none; 
+  }
+
+ .descriptionBtn{
+     background-color:#F2AF44;
+     width:6.31rem;
+     height:2.8rem;
+     border-radius:5px;
+     color:#FAFAFA;
+     font-weight: 700;
+     font-family:'roboto';
+     font-size:1.5rem;
+     border:none; 
+     margin-right:1.15rem;
+     white-space:nowrap;
+     /* margin-top:6.37rem */
+ }
+
+ .signOutBtn{ 
+    background-color:#CB5C5C;
+    width:6.31rem;
+    height:2.8rem;
+    border-radius:5px;
+    color:#FAFAFA;
+    font-weight: 700;
+    font-family:'roboto';
+    font-size:1.5rem;
+    border:none;
+    white-space:nowrap;
+}
+
+.navList{
+  width:100%;
+  height:5.45rem;
+  /* background:pink; */
+  margin-top:0; 
+}
+
+
+/* .navList{ */
+    /* background:pink; */
+/* } */
+
+/* .brandTitle{ */
+    /* margin-top:1.38rem;
+    border:1px solid red;
+    padding-left:38.45rem;   */
+/* } */
+
+/* .brandInfo{ */
+    /* margin-top:3.38rem;
+    border:1px solid blue;
+    padding-left:24rem; */
+    /* width:200px; */
+/* } 
+
+
+
+
+
+.descriptionBtn{ */
+   /* margin-right:1.15rem;
+   margin-left:144px;
+   background-color:#F2AF44; */
+   /* border:5px solid red; */
+/* }
+
+.signOutBtn{ */
+    /* background-color:#CB5C5C; */
+    /* padding-right:-20px; */
+/* }
+
+hr{
+    margin-left:-7.5rem;
+} */
+
+/* @media (max-width: 1500px) {
+  
+} */
