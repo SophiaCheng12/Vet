@@ -103,7 +103,7 @@
           <div class="row">
         <form class="form">
           <div class="form-group">
-            <span class="product">商品代碼:</span>
+            <span class="product">商品代碼 :</span>
             <label for="productCodeInput" >
             <input type="text" class="form-control productCodeInput" id="productCodes">
             <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
@@ -111,21 +111,21 @@
           </div>
           
           <div class="form-group">
-            <span class="product">國際條碼:</span>
+            <span class="product">國際條碼 :</span>
             <label for="exampleInputPassword1">
             <input type="number" class="form-control" id="exampleInputPassword1">
             </label>
           </div>
           
           <div class="form-group">
-            <span class="product">商品名稱:</span>
+            <span class="product">商品名稱 :</span>
             <label for="exampleInputPassword1">
             <input type="text" class="form-control" id="exampleInputPassword1">
             </label>
           </div>
 
           <div class="form-group">
-            <span class="product">商品類別:</span>
+            <span class="product">商品類別 :</span>
             <label for="exampleFormControlSelect1">
             <select class="form-control select" id="exampleFormControlSelect1">
               <option>1</option>
@@ -140,7 +140,7 @@
          
           <div class="form-group d-flex flex-row">
             <div>
-            <span class="product commodityAttributes">商品屬性:</span>
+            <span class="product commodityAttributes">商品屬性 :</span>
             <label for="exampleInputPassword1">
             <input type="text" class="form-control commodityAttributesInput" id="exampleInputPassword1">
             </label>
@@ -148,32 +148,43 @@
 
             <div>
               <button type="button" class="btn inquireBtn">
-               <!-- <p class="buttonWord"> -->
+               <span class="buttonWord">
                 查詢
-               <!-- </p> -->
+               </span>
               </button>
-              <button type="button" class="btn removeBtn">清除</button>
+              <button type="button" class="btn removeBtn">
+                <span class="removeButtonWord">
+                清除</button>
+                </span>
             </div>
            </div>
          
           
            <div class="form-group d-flex flex-row">
             <div>
-            <span class="product">供應商:</span>
+            <span class="product">供應商 :</span>
             <label for="exampleInputPassword1">
             <input type="text" class="form-control productSupplier" id="exampleInputPassword1">
             </label>
           </div>  
 
             <div>
-              <button type="button" class="btn inquireBtn">查詢</button>
-              <button type="button" class="btn removeBtn">清除</button>
+              <button type="button" class="btn inquireBtn">
+                <span class="buttonWord">
+                查詢
+                </span>
+              </button>
+              <button type="button" class="btn removeBtn">
+                <span class="removeButtonWord">
+                清除
+              </span>
+              </button>
             </div>
           </div>
          
 
           <div class="form-group">
-            <span class="product">品牌:</span>
+            <span class="product">品牌 :</span>
             <label for="exampleFormControlSelect1">
             <select class="form-control select productBrand" id="exampleFormControlSelect1">
               <option>1</option>
@@ -185,10 +196,10 @@
           </label>
           </div>
          
-         <div>
-          <button type="submit" class="btn btn-primary mt-3">Submit</button>
-          <button type="submit" class="btn btn-primary mt-3">Submit</button>
-          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+         <div class="totalBtn">
+          <button type="submit" class="btn searchFormBtn mt-3 mr-2">搜尋</button>
+          <button type="submit" class="btn searchFormBtn mt-3 mr-2">清除</button>
+          <button type="submit" class="btn searchFormBtn mt-3 mr-2">匯出表格</button>
         </div>
         </form>
          </div>
