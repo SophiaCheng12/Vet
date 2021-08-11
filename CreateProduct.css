@@ -1,6 +1,7 @@
 /* css reset */
 *{
   box-sizing: border-box;
+  font-family:'Roboto';
 }
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -83,7 +84,7 @@ img{
     margin-top:2.81rem;
 }
 
-.brandBtn{ 
+/* .brandBtn{ 
      width:6.31rem;
      height:2.8rem;
      border-radius:5px;
@@ -92,7 +93,7 @@ img{
      font-family:'roboto';
      font-size:1.5rem;
      border:none; 
-  }
+  } */
 
  .descriptionBtn{
      background-color:#F2AF44;
@@ -151,6 +152,118 @@ img{
    font-size:1.37rem;
 }
 
+/* main */
+.search{
+border-bottom:8px solid #F2AF44;
+;
+height:7.1rem;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+
+.search p{
+  font-weight:700;
+  font-size:1.75rem;
+  font-family:'Roboto'
+}
+
+.searchForm{
+  /* border:1px solid blue; */
+  margin-top:1.93rem;
+}
+
+.searchContainer{
+  /* border:1px solid red; */
+}
+
+.form{
+  /* border:1px solid purple; */
+  margin:0 auto;
+}
+
+.product{
+ color:#3E414F;
+ font-weight:700;
+ font-size:1.13rem;
+ font-family:'Roboto';
+ line-height:1.32rem;
+}
+
+input[type="text"],input[type="number"],.select{
+  /* background:pink; */
+  width:18.43rem;
+  height:1.56rem;
+  border-color:#E5E5E5;
+  border-radius: 0rem;
+}
+
+.productSupplier{
+  margin-left:1rem;
+  width:10.85rem !important;
+}
+
+.productBrand{
+  margin-left:2rem;
+}
+
+.inquireBtn{
+  background-color:#F2AF44;
+  width:0.1rem;
+  height:0rem;
+  border-radius: 0rem;
+  font-size:0.88rem;
+  /* text-align:center; */
+  font-weight:400;
+  white-space: nowrap;
+  line-height:1.03rem;
+  padding-right:2.4rem;
+  /* padding-left:-2rem; */
+  padding-bottom:1rem;
+  padding-top:0.2rem;
+  margin-left:0.38rem;
+  margin-top:0.2rem;
+  color:white;
+}
+
+.removeBtn{
+  background-color:#F2AF44;
+  width:0.1rem;
+  height:0rem;
+  border-radius: 0rem;
+  font-size:0.88rem;
+  /* text-align:center; */
+  font-weight:400;
+  white-space: nowrap;
+  line-height:1.03rem;
+  padding-right:2.4rem;
+  /* padding-left:-2rem; */
+  padding-bottom:1rem;
+  padding-top:0.2rem;
+  margin-left:0.38rem;
+  margin-top:0.2rem;
+  color:white;
+}
+
+.commodityAttributesInput{
+  width:10.85rem !important;
+}
+
+/* .buttonWord{
+ margin-right:10rem; */
+  /* border:1px solid red; */
+  
+  /* margin:0 auto; */
+/* } */
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1000px){
   .navList{
@@ -180,8 +293,340 @@ img{
   }
 }
 
+@media screen and (max-width: 576px){
+ 
+.brandImg{
+  width:90%;
+}
 
+.descriptionBtn{
+  background-color:#F2AF44;
+  width:5rem;
+  height:2.8rem;
+  border-radius:5px;
+  color:#FAFAFA;
+  font-weight: 700;
+  font-family:'roboto';
+  font-size:1.1rem;
+  border:none; 
+  margin-right:1.3rem;
+  white-space:nowrap; 
+}
 
+.signOutBtn{ 
+  background-color:#CB5C5C;
+  margin-right:1rem;
+  width:5rem;
+  height:2.8rem;
+  border-radius:5px;
+  color:#FAFAFA;
+  font-weight: 700;
+  font-family:'roboto';
+  font-size:1.1rem;
+  border:none;
+  white-space:nowrap;
+}
 
+.descriptionImg{
+  width:16%;
+}
 
+.signOutImg{
+  width:40%;
+}
 
+}
+
+ @media screen and (max-width: 440px){
+
+  .pos{
+    margin-left:0rem;
+    margin-top:-0.1rem;
+  }
+
+  .navbarToggler{
+    margin-right:1rem;
+  }
+ 
+  /* .navbarNav{
+    margin-left:19rem;
+  } */
+ 
+  .totalBrandBtn{
+   /* border:1px solid purple; */
+     display:flex;
+     margin-top:3.5rem;
+ }
+
+ .descriptionBtn{
+   background-color:#F2AF44;
+   width:4.1rem;
+   height:2.5rem;
+   border-radius:5px;
+   color:#FAFAFA;
+   font-weight: 700;
+   font-family:'roboto';
+   font-size:1.1rem;
+   border:none; 
+   margin-right:1.3rem;
+   white-space:nowrap; 
+ }
+ 
+ .signOutBtn{ 
+   background-color:#CB5C5C;
+   margin-right:1rem;
+   width:4.1rem;
+   height:2.5rem;
+   border-radius:5px;
+   color:#FAFAFA;
+   font-weight: 700;
+   font-family:'roboto';
+   font-size:1.1rem;
+   border:none;
+   white-space:nowrap;
+ }
+ 
+ .descriptionImg{
+   width:16%;
+ }
+ 
+ .signOutImg{
+   width:32%;
+ }
+} 
+
+@media screen and (max-width: 439px){
+  .pos{
+     margin-left:0rem;
+     margin-top:-0.1rem;
+   }
+
+   .navbarToggler{
+     margin-right:1rem;
+   }
+  
+   /* .navbarNav{
+     margin-left:19rem;
+   } */
+  
+   .totalBrandBtn{
+    /* border:1px solid purple; */
+      display:flex;
+      margin-top:3.5rem;
+  }
+
+  .descriptionBtn{
+    background-color:#F2AF44;
+    width:4.1rem;
+    height:2.5rem;
+    border-radius:5px;
+    color:#FAFAFA;
+    font-weight: 700;
+    font-family:'roboto';
+    font-size:1.1rem;
+    border:none; 
+    margin-right:1.3rem;
+    white-space:nowrap; 
+  }
+  
+  .signOutBtn{ 
+    background-color:#CB5C5C;
+    margin-right:1rem;
+    width:4.1rem;
+    height:2.5rem;
+    border-radius:5px;
+    color:#FAFAFA;
+    font-weight: 700;
+    font-family:'roboto';
+    font-size:1.1rem;
+    border:none;
+    white-space:nowrap;
+  }
+  
+  .descriptionImg{
+    width:16%;
+  }
+  
+  .signOutImg{
+    width:32%;
+  }
+  }
+  
+   
+
+    @media screen and (max-width: 412px){
+      .brandImg{
+        width:80%;
+        /* border:1px solid pink; */
+      }    
+      
+      .pos{
+         margin-left:0rem;
+         margin-top:-0.1rem;
+       }
+    
+       .navbarToggler{
+         margin-right:1rem;
+       }
+      
+       .totalBrandBtn{
+        /* border:1px solid purple; */
+          display:flex;
+          margin-top:3.5rem;
+      }
+    
+      .descriptionBtn{
+        background-color:#F2AF44;
+        width:3.8rem;
+        height:2rem;
+        border-radius:5px;
+        color:#FAFAFA;
+        font-weight: 700;
+        font-family:'roboto';
+        font-size:0.8rem;
+        border:none; 
+        margin-right:1.3rem;
+        white-space:nowrap; 
+      }
+      
+      .signOutBtn{ 
+        background-color:#CB5C5C;
+        margin-right:1rem;
+        width:3.8rem;
+        height:2rem;
+        border-radius:5px;
+        color:#FAFAFA;
+        font-weight: 700;
+        font-family:'roboto';
+        font-size:0.8rem;
+        border:none;
+        white-space:nowrap;
+      }
+      
+      .descriptionImg{
+        width:16%;
+      }
+      
+      .signOutImg{
+        width:32%;
+      }
+      }
+
+      @media screen and (max-width: 404px){
+        .brandImg{
+          width:70%;
+          /* border:1px solid red; */
+        }    
+        
+        .pos{
+           margin-left:0rem;
+           margin-top:-0.1rem;
+         }
+      
+         .navbarToggler{
+           margin-right:1rem;
+         }
+        
+         .totalBrandBtn{
+          /* border:1px solid purple; */
+            display:flex;
+            margin-top:3.5rem;
+        }
+      
+        .descriptionBtn{
+          background-color:#F2AF44;
+          width:3.5rem;
+          height:2rem;
+          border-radius:5px;
+          color:#FAFAFA;
+          font-weight: 700;
+          font-family:'roboto';
+          font-size:0.8rem;
+          border:none; 
+          margin-right:1.3rem;
+          white-space:nowrap; 
+        }
+        
+        .signOutBtn{ 
+          background-color:#CB5C5C;
+          margin-right:1rem;
+          width:3.5rem;
+          height:2rem;
+          border-radius:5px;
+          color:#FAFAFA;
+          font-weight: 700;
+          font-family:'roboto';
+          font-size:0.8rem;
+          border:none;
+          white-space:nowrap;
+          padding-right:1.5rem;
+        }
+        
+        .descriptionImg{
+          width:16%;
+        }
+        
+        .signOutImg{
+          width:45%;
+        }
+        }
+
+        @media screen and (max-width: 376px){
+          .brandImg{
+            width:70%;
+            /* border:1px solid blue; */
+          }    
+          
+          .pos{
+             margin-left:0rem;
+             margin-top:-0.1rem;
+           }
+        
+           .navbarToggler{
+             margin-right:1rem;
+           }
+          
+           .totalBrandBtn{
+            /* border:1px solid purple; */
+              display:flex;
+              margin-top:3.5rem;
+          }
+        
+          .descriptionBtn{
+            background-color:#F2AF44;
+            width:2.8rem;
+            height:2rem;
+            border-radius:5px;
+            color:#FAFAFA;
+            font-weight: 700;
+            font-family:'roboto';
+            font-size:0.8rem;
+            border:none; 
+            margin-right:1.3rem;
+            white-space:nowrap; 
+            padding-left:0.4rem;
+          }
+          
+          .signOutBtn{ 
+            background-color:#CB5C5C;
+            margin-right:1rem;
+            width:2.8rem;
+            height:2rem;
+            border-radius:5px;
+            color:#FAFAFA;
+            font-weight: 700;
+            font-family:'roboto';
+            font-size:0.8rem;
+            border:none;
+            white-space:nowrap;
+            padding-left:0.3rem;
+          }
+          
+          .descriptionImg{
+            width:16%;
+          }
+          
+          .signOutImg{
+            width:50%;
+          }
+          }
