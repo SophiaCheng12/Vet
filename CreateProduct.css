@@ -67,35 +67,22 @@ img{
 .brand{ 
     height:6.88rem; 
     border:1px solid #E5E5E5; 
-    width:100%;  
-    /* border:1px solid purple; */
+    width:100%;   
+    /* border:1px solid green;  */
 } 
 
 .navbarBrand{
-  /* border:1px solid purple; */
   margin: 0 auto;
-  /* width:35%; */
-  /* padding-left:25rem; */
  }
 
  .totalBrandBtn{
-  /* border:1px solid purple; */
     display:flex;
     margin-top:2.81rem;
+    position:absolute;
+    right:1rem;
 }
 
-/* .brandBtn{ 
-     width:6.31rem;
-     height:2.8rem;
-     border-radius:5px;
-     color:#FAFAFA;
-     font-weight: 700;
-     font-family:'roboto';
-     font-size:1.5rem;
-     border:none; 
-  } */
-
- .descriptionBtn{
+.descriptionBtn{
      background-color:#F2AF44;
      width:6.31rem;
      height:2.8rem;
@@ -135,8 +122,7 @@ img{
 .navbar1{
   /* border:1px solid red; */
   margin: 0 auto; 
-  /* text-align:center; */
-}
+ }
 
 .navbarTitle{
   color:#F2AF44 !important;
@@ -292,7 +278,6 @@ input[type="text"],input[type="number"],.select{
   .navList{
     width:100%;
     height:5.45rem;
-    /* background:pink; */
     margin-top:0; 
     /* border:1px solid blue; */
     display:flex;
@@ -302,7 +287,6 @@ input[type="text"],input[type="number"],.select{
   .navbar1{
     /* border:1px solid blue; */
     margin-left:0rem;
-    /* background:pink; */
     height:90px;
     width:100%;
     display:flex;
@@ -316,10 +300,33 @@ input[type="text"],input[type="number"],.select{
   }
 }
 
+@media screen and (max-width: 768px){
+  .navbarBrand{
+    /* border:1px solid red; */
+    position:absolute;
+    top:1rem;
+    left:0.5rem;
+   }
+
+   .totalBrandBtn{
+     display:flex;
+     position:absolute;
+     right: 1rem;
+     top:0.5rem;
+ }
+}
+
+
 @media screen and (max-width: 576px){
- 
 .brandImg{
   width:90%;
+}
+
+.totalBrandBtn{
+   display:flex;
+   position:absolute;
+   right:0.1rem;
+   top:0.5rem;
 }
 
 .descriptionBtn{
@@ -356,300 +363,67 @@ input[type="text"],input[type="number"],.select{
 
 .signOutImg{
   width:40%;
-}
-
-}
-
- @media screen and (max-width: 440px){
-
-  .pos{
-    margin-left:0rem;
-    margin-top:-0.1rem;
-  }
-
-  .navbarToggler{
-    margin-right:1rem;
-  }
- 
-  /* .navbarNav{
-    margin-left:19rem;
-  } */
- 
-  .totalBrandBtn{
-   /* border:1px solid purple; */
-     display:flex;
-     margin-top:3.5rem;
- }
-
- .descriptionBtn{
-   background-color:#F2AF44;
-   width:4.1rem;
-   height:2.5rem;
-   border-radius:5px;
-   color:#FAFAFA;
-   font-weight: 700;
-   font-family:'roboto';
-   font-size:1.1rem;
-   border:none; 
-   margin-right:1.3rem;
-   white-space:nowrap; 
- }
- 
- .signOutBtn{ 
-   background-color:#CB5C5C;
-   margin-right:1rem;
-   width:4.1rem;
-   height:2.5rem;
-   border-radius:5px;
-   color:#FAFAFA;
-   font-weight: 700;
-   font-family:'roboto';
-   font-size:1.1rem;
-   border:none;
-   white-space:nowrap;
- }
- 
- .descriptionImg{
-   width:16%;
- }
- 
- .signOutImg{
-   width:32%;
- }
 } 
+}
 
-@media screen and (max-width: 439px){
-  .pos{
-     margin-left:0rem;
-     margin-top:-0.1rem;
-   }
-
-   .navbarToggler{
-     margin-right:1rem;
-   }
-  
-   /* .navbarNav{
-     margin-left:19rem;
-   } */
-  
-   .totalBrandBtn{
-    /* border:1px solid purple; */
-      display:flex;
-      margin-top:3.5rem;
-  }
-
-  .descriptionBtn{
-    background-color:#F2AF44;
-    width:4.1rem;
-    height:2.5rem;
-    border-radius:5px;
-    color:#FAFAFA;
-    font-weight: 700;
-    font-family:'roboto';
-    font-size:1.1rem;
-    border:none; 
-    margin-right:1.3rem;
-    white-space:nowrap; 
-  }
-  
-  .signOutBtn{ 
-    background-color:#CB5C5C;
-    margin-right:1rem;
-    width:4.1rem;
-    height:2.5rem;
-    border-radius:5px;
-    color:#FAFAFA;
-    font-weight: 700;
-    font-family:'roboto';
-    font-size:1.1rem;
-    border:none;
-    white-space:nowrap;
-  }
-  
-  .descriptionImg{
-    width:16%;
-  }
-  
-  .signOutImg{
-    width:32%;
-  }
-  }
-  
-   
-
-    @media screen and (max-width: 412px){
-      .brandImg{
-        width:80%;
-        /* border:1px solid pink; */
-      }    
-      
-      .pos{
-         margin-left:0rem;
-         margin-top:-0.1rem;
-       }
-    
-       .navbarToggler{
-         margin-right:1rem;
-       }
-      
-       .totalBrandBtn{
-        /* border:1px solid purple; */
-          display:flex;
-          margin-top:3.5rem;
-      }
-    
-      .descriptionBtn{
-        background-color:#F2AF44;
-        width:3.8rem;
-        height:2rem;
-        border-radius:5px;
-        color:#FAFAFA;
-        font-weight: 700;
-        font-family:'roboto';
-        font-size:0.8rem;
-        border:none; 
-        margin-right:1.3rem;
-        white-space:nowrap; 
-      }
-      
-      .signOutBtn{ 
-        background-color:#CB5C5C;
-        margin-right:1rem;
-        width:3.8rem;
-        height:2rem;
-        border-radius:5px;
-        color:#FAFAFA;
-        font-weight: 700;
-        font-family:'roboto';
-        font-size:0.8rem;
-        border:none;
-        white-space:nowrap;
-      }
-      
-      .descriptionImg{
-        width:16%;
-      }
-      
-      .signOutImg{
-        width:32%;
-      }
-      }
-
-      @media screen and (max-width: 404px){
-        .brandImg{
-          width:70%;
-          /* border:1px solid red; */
+@media screen and (max-width: 397px){
+  .brandImg{
+          width:70%; 
+          /* border:1px solid blue; */
         }    
         
-        .pos{
-           margin-left:0rem;
-           margin-top:-0.1rem;
-         }
-      
-         .navbarToggler{
-           margin-right:1rem;
-         }
         
-         .totalBrandBtn{
+  .totalBrandBtn{ 
           /* border:1px solid purple; */
             display:flex;
-            margin-top:3.5rem;
-        }
+            position:absolute;
+            right:0rem;
+            top:0.5rem;
+        } 
       
-        .descriptionBtn{
+  .descriptionBtn{
           background-color:#F2AF44;
-          width:3.5rem;
-          height:2rem;
+          width:4.5rem;
+          height:2.5rem;
           border-radius:5px;
           color:#FAFAFA;
           font-weight: 700;
           font-family:'roboto';
-          font-size:0.8rem;
+          font-size:1rem;
           border:none; 
           margin-right:1.3rem;
           white-space:nowrap; 
+          padding-left:0.4rem;
         }
         
-        .signOutBtn{ 
+  .signOutBtn{ 
           background-color:#CB5C5C;
           margin-right:1rem;
-          width:3.5rem;
-          height:2rem;
+          width:4.5rem;
+          height:2.5rem;
           border-radius:5px;
           color:#FAFAFA;
           font-weight: 700;
           font-family:'roboto';
-          font-size:0.8rem;
+          font-size:1rem;
           border:none;
           white-space:nowrap;
-          padding-right:1.5rem;
+          padding-left:0.3rem;
         }
         
-        .descriptionImg{
-          width:16%;
-        }
+ .descriptionImg{
+          width:13%;
+        } 
         
-        .signOutImg{
-          width:45%;
+ .signOutImg{
+          width:35%;
         }
-        }
+  }
 
-        @media screen and (max-width: 376px){
-          .brandImg{
-            width:70%;
-            /* border:1px solid blue; */
-          }    
-          
-          .pos{
-             margin-left:0rem;
-             margin-top:-0.1rem;
-           }
-        
-           .navbarToggler{
-             margin-right:1rem;
-           }
-          
-           .totalBrandBtn{
-            /* border:1px solid purple; */
-              display:flex;
-              margin-top:3.5rem;
-          }
-        
-          .descriptionBtn{
-            background-color:#F2AF44;
-            width:2.8rem;
-            height:2rem;
-            border-radius:5px;
-            color:#FAFAFA;
-            font-weight: 700;
-            font-family:'roboto';
-            font-size:0.8rem;
-            border:none; 
-            margin-right:1.3rem;
-            white-space:nowrap; 
-            padding-left:0.4rem;
-          }
-          
-          .signOutBtn{ 
-            background-color:#CB5C5C;
-            margin-right:1rem;
-            width:2.8rem;
-            height:2rem;
-            border-radius:5px;
-            color:#FAFAFA;
-            font-weight: 700;
-            font-family:'roboto';
-            font-size:0.8rem;
-            border:none;
-            white-space:nowrap;
-            padding-left:0.3rem;
-          }
-          
-          .descriptionImg{
-            width:16%;
-          }
-          
-          .signOutImg{
-            width:50%;
-          }
-          }
+
+
+
+
+
+
+ 
