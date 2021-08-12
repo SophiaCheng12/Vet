@@ -183,9 +183,23 @@ input[type="text"],input[type="number"],.select{
   border-color: lightgray;
   border-radius: 0rem;
 }
+ 
+select::-ms-expand{
+  display:none
+} 
 
 .select{
   font-size:0.5rem;
+  width:18.43rem;
+  height:1.56rem;
+  /* border: none; */
+  outline: none;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -ms-appearance:none;
+  background:url('./Img/Polygon 1.png')no-repeat 97% center;
+  padding-right:3rem;
 }
 
 .productSupplier{
@@ -220,7 +234,7 @@ input[type="text"],input[type="number"],.select{
 .buttonWord{
  position:absolute;
  left:0.38rem;
- top:0.2rem;
+ top:0.1rem;
 }
 
 .removeBtn{
@@ -241,7 +255,7 @@ input[type="text"],input[type="number"],.select{
 .removeButtonWord{
   position:absolute;
   left:0.38rem;
-  top:0.2rem;
+  top:0.1rem;
 }
 
 .commodityAttributesInput{
@@ -251,6 +265,7 @@ input[type="text"],input[type="number"],.select{
 .totalBtn{
   /* border:1px solid red; */
   margin-left:1.1rem;
+  margin-bottom:4.3rem;
 }
 
 .searchFormBtn{
@@ -267,9 +282,67 @@ input[type="text"],input[type="number"],.select{
   border:none;
 }
 
+/* createProduct */
+.createProduct{
+  /* border:1px solid red; */
+  margin-bottom:4.93rem;
+}
 
+.firstPart{
+  margin-bottom:0.36rem;
+  display:flex;
+  justify-content:space-around;
+}
 
+.createProductWord{
+  color:#F2AF44;
+  font-weight:900;
+  font-size:1.25rem;
+  margin-left:0.36rem;
+  align-items:center;
+}
 
+.firstPaginationImg{
+  border:1px solid black;
+  background-color:#3E414F;
+  width:2.37rem;
+  height:1.31rem;
+  border-radius:1.3px;
+  justify-content:space-evenly;
+}
+
+.paginationWord{
+  color: #3E414F;
+  font-size:0.85rem;
+  font-weight:600;
+  align-items:center;
+  margin:0 0.43rem;
+}
+
+.secondPaginationImg{
+  border:1px solid black;
+  background-color:#3E414F;
+  width:2.37rem;
+  height:1.31rem;
+  border-radius:1.3px;
+  justify-content:space-evenly;
+}
+
+.createProductTr{
+  text-align:center;
+}
+
+.secondPart .table{
+  width:90.75rem;
+  margin: 0 auto;
+}
+
+.bottomPagination{
+  /* border:1px solid blue; */
+  margin-top:0.56rem; 
+  position:absolute;
+  right:2rem;
+}
 
 
 
