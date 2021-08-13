@@ -1,6 +1,7 @@
 const navbarTitle = document.querySelector('.navbarTitle')
 const navbarContent = document.querySelector('#navbarSupportedContentUl')
-console.log(navbarContent)
+const ellipsis = document.querySelector('.ellipsis')
+
 
 navbarTitle.addEventListener('click' , active)
 
@@ -27,3 +28,12 @@ for(i=0; i<functionLists.length; i++){
 }
 navbarContent.innerHTML = list
 
+
+
+let productContentTitle = ellipsis.innerHTML
+let productContentSplit = productContentTitle.split(" ")
+const productContentSlice = productContentSplit.slice(0,3)
+productContentTitle = productContentSlice.join(" ") + '......'
+ellipsis.innerHTML = productContentTitle 
+
+// console.log(productContentTitle)
