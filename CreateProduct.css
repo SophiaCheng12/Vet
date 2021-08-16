@@ -52,7 +52,9 @@ img{
 }
 
 
-
+/* .ellipsis{
+  margin-right:1rem;
+} */
 
 
 
@@ -190,7 +192,7 @@ align-items:center;
  line-height:1.32rem;
 }
 
-input[type="text"],input[type="number"],.select{
+input[type="text"],input[type="number"]{
   /* background:pink; */
   width:18.43rem;
   height:1.56rem;
@@ -203,6 +205,8 @@ select::-ms-expand{
 } 
 
 .select{
+  border-color: lightgray;
+  border-radius: 0rem;
   font-size:0.5rem;
   width:18.43rem;
   height:1.56rem;
@@ -391,6 +395,26 @@ select::-ms-expand{
   }
 }
 
+@media screen and (max-width: 61.99rem){
+  .navbarRelative{
+  position:relative;
+  }
+  
+  .navbarColor{
+    background-color: #F2AF44;
+    position:absolute;
+    /* position:relative; */
+    right:0rem;
+    width:20rem;
+    text-align:center;
+   }
+
+  .navItemColor{
+    color:white;
+    }
+}
+
+
 @media screen and (max-width: 768px){
   .navbarBrand{
     /* border:1px solid red; */
@@ -457,6 +481,26 @@ select::-ms-expand{
 } 
 }
 
+@media screen and (max-width: 464px){
+  .navbarRelative{
+    position:relative;
+    }
+    
+    .navbarColor{
+      background-color: #F2AF44;
+      position:absolute;
+      /* position:relative; */
+      right:0rem;
+      width:15rem;
+      text-align:center;
+     }
+  
+    .navItemColor{
+      color:white;
+      }
+}
+
+
 @media screen and (max-width: 397px){
   .brandImg{
           width:70%; 
@@ -511,3 +555,134 @@ select::-ms-expand{
         }
   }
 
+  @media screen and (max-width: 384px){
+    .navbarRelative{
+      position:relative;
+      }
+      
+      .navbarColor{
+        background-color: #F2AF44;
+        position:absolute;
+        /* position:relative; */
+        right:0rem;
+        width:10rem;
+        text-align:center;
+       }
+    
+      .navItemColor{
+        color:white;
+        }
+      
+      .product{
+        /* background:pink; */
+        font-size:1rem;
+       }
+
+      #productBrandId{
+        margin-right:-0.2rem
+       }
+
+      input[type="text"],input[type="number"]{
+       /* background:pink; */
+       width:18.43rem;
+       height:1.56rem;
+       border-color: lightgray;
+       border-radius: 0rem;
+     }
+     
+     .inquireBtn{
+      background-color:#F2AF44;
+      width:2rem;
+      height:1.3rem;
+      border-radius: 0rem;
+      font-size:0.88rem;
+      font-weight:400;
+      white-space: nowrap;
+      line-height:1.03rem;
+      position:relative;
+      margin-left:0.38rem;
+      margin-top:0.2rem;
+      color:white;
+    }
+    
+    .buttonWord{
+     position:absolute;
+     left:0.06rem;
+     top:0.1rem;
+    }
+    
+    .removeBtn{
+      background-color:#F2AF44;
+      width:2rem;
+      height:1.3rem;
+      border-radius: 0rem;
+      font-size:0.88rem;
+      font-weight:400;
+      white-space: nowrap;
+      line-height:1.03rem;
+      position:relative;
+      margin-left:0.38rem;
+      margin-top:0.2rem;
+      color:white;
+    }
+    
+    .removeButtonWord{
+      position:absolute;
+      left:0.06rem;
+      top:0.1rem;
+    }
+
+    select::-ms-expand{
+      display:none
+    } 
+    
+    .select{
+      /* background:pink; */
+      border-color: lightgray;
+      border-radius: 0rem;
+      font-size:0.5rem;
+      width:18.43rem;
+      height:1.56rem;
+      outline: none;
+      appearance:none;
+      -moz-appearance:none;
+      -webkit-appearance:none;
+      -ms-appearance:none;
+      background:url('./Img/Polygon 1.png')no-repeat 97% center;
+     }
+
+     .commodityAttributesInput{
+        /* background:pink; */
+        width:13.4rem !important;
+    }
+
+    .productSupplier{
+      margin-left:1rem;
+      width:13.4rem !important;
+    }
+  }
+
+  @media screen and (max-width: 379px){
+    .product{
+      font-size:0.9rem;
+     }
+     
+     #productSupplierId{
+      /* background:pink; */
+      margin-right:-0.1rem;
+     }
+
+     #productBrandId{
+      margin-right:-0.4rem
+     }
+
+     .searchFormBtn{
+      border:1px solid #3E414F;
+      border-radius:0px;
+      width:6.88rem;
+      height:2.18rem;
+      font-size:1.2rem;
+      font-weight:900;
+    }
+    
+  }

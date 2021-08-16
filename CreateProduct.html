@@ -54,13 +54,14 @@
     
     <a class="navbar-brand navbarTitle pos" href="#">POS前台</a>
     <!-- active -->
+ 
     <button class="navbar-toggler navbarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav navbarNav mr-auto"  id="navbarSupportedContentUl">
+    <div class="collapse navbar-collapse navbarRelative" id="navbarSupportedContent">
+      <ul class="navbar-nav navbarNav mr-auto navbarColor"  id="navbarSupportedContentUl">
         <!-- 其他功能 -->
       </ul>
      
@@ -141,7 +142,7 @@
           
            <div class="form-group d-flex flex-row">
             <div>
-            <span class="product">供應商 :</span>
+            <span class="product" id="productSupplierId">供應商 :</span>
             <label for="exampleInputPassword1">
             <input type="text" class="form-control productSupplier" id="exampleInputPassword1">
             </label>
@@ -163,7 +164,7 @@
          
 
           <div class="form-group">
-            <span class="product">品牌 :</span>
+            <span class="product" id="productBrandId">品牌 :</span>
             <label for="exampleFormControlSelect1">
             <select class="form-control select productBrand" id="exampleFormControlSelect1">
               <option>1</option>
