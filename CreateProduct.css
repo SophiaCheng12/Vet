@@ -52,15 +52,18 @@ img{
 }
 
 
-/* .ellipsis{
-  margin-right:1rem;
-} */
+
 
 
 
 /* dr.vet */
 
 /* nav */
+.content {
+  width: 100%;
+  max-width: 95.63rem;
+}
+
 .nav{
     height:13.85rem;
     border-bottom:23px solid #E5E5E5;
@@ -68,9 +71,9 @@ img{
 
 .brand{ 
     height:6.88rem; 
-    border:1px solid #E5E5E5; 
+    border-bottom:1px solid #E5E5E5; 
     width:100%; 
-   /* border:1px solid green;  */
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
 } 
 
 .navbarBrand{
@@ -114,9 +117,7 @@ img{
 .navList{
   width:100%;
   height:5.45rem;
-  /* background:pink; */
   margin-top:0; 
-  /* border:1px solid blue; */
   display:flex;
   align-items:center;
 }
@@ -156,8 +157,7 @@ img{
 
 /* main */
 .search{
-border-bottom:8px solid #F2AF44;
-;
+border-bottom:6px solid #F2AF44;
 height:7.1rem;
 display:flex;
 justify-content: center;
@@ -173,10 +173,6 @@ align-items:center;
 .searchForm{
   /* border:1px solid blue; */
   margin-top:1.93rem;
-}
-
-.searchContainer{
-  /* border:1px solid red; */
 }
 
 .form{
@@ -199,6 +195,12 @@ input[type="text"],input[type="number"]{
   border-color: lightgray;
   border-radius: 0rem;
 }
+
+input.form-control:focus {
+  border-color: #ccc;
+  outline: none;
+  box-shadow: none;
+}
  
 select::-ms-expand{
   display:none
@@ -208,9 +210,9 @@ select::-ms-expand{
   border-color: lightgray;
   border-radius: 0rem;
   font-size:0.5rem;
+  padding-bottom:0rem;
   width:18.43rem;
   height:1.56rem;
-  /* border: none; */
   outline: none;
   appearance:none;
   -moz-appearance:none;
@@ -218,6 +220,12 @@ select::-ms-expand{
   -ms-appearance:none;
   background:url('./Img/Polygon 1.png')no-repeat 97% center;
   padding-right:3rem;
+}
+
+select.form-control:focus {
+  border-color: #ccc;
+  outline: none;
+  box-shadow: none;
 }
 
 .productSupplier{
@@ -229,10 +237,6 @@ select::-ms-expand{
   margin-left:2.2rem;
   width:18.70rem !important;
   }
-
-/* option{
-  color:#F2AF44;
-} */
 
 .inquireBtn{
   background-color:#F2AF44;
@@ -295,9 +299,20 @@ select::-ms-expand{
   font-weight:900;
 }
 
-.searchFormBtn:hover{
+/* .searchFormBtn:hover{
   background-color:#F2AF44;
   border:none;
+} */
+
+.buttonActive{
+  background-color:#F2AF44 !important;
+  border:none;
+}
+
+button{
+  border-color: #ccc !important;
+  outline:0 !important;
+  box-shadow: none !important;
 }
 
 /* createProduct */
@@ -356,11 +371,8 @@ select::-ms-expand{
 }
 
 .bottomPagination{
-  /* border:1px solid blue; */
-  margin-top:0.56rem; 
-  /* position:absolute;
-  right:2rem; */
-  }
+ margin-top:0.56rem; 
+}
 
 .bottomPaginationTitle{
   opacity:0;
@@ -393,6 +405,21 @@ select::-ms-expand{
     height:80px;
     padding-top:2rem;
   }
+
+  .active{
+    /* border:1px solid red; */
+    color:#F2AF44 !important;
+    position:relative;
+  }
+  
+   .active::after{
+      content:"";
+      border-bottom:0.5rem solid #F2AF44;
+      position:absolute;
+      width:120px;
+      bottom:-0.3rem;
+      left:-0.8rem;
+   }
 }
 
 @media screen and (max-width: 61.99rem){
@@ -412,6 +439,15 @@ select::-ms-expand{
   .navItemColor{
     color:white;
     }
+
+    .active::after{
+        content:"";
+        border-bottom:0.5rem solid #F2AF44;
+        position:absolute;
+        width:120px;
+        bottom: -0.1em;
+        left:-0.8rem;
+     }
 }
 
 
@@ -662,7 +698,7 @@ select::-ms-expand{
     }
   }
 
-  @media screen and (max-width: 379px){
+  @media screen and (max-width: 23.7rem){
     .product{
       font-size:0.9rem;
      }
@@ -679,7 +715,7 @@ select::-ms-expand{
      .searchFormBtn{
       border:1px solid #3E414F;
       border-radius:0px;
-      width:6.88rem;
+      width:6.5rem;
       height:2.18rem;
       font-size:1.2rem;
       font-weight:900;
