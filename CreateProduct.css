@@ -599,7 +599,6 @@ button{
       .navbarColor{
         background-color: #F2AF44;
         position:absolute;
-        /* position:relative; */
         right:0rem;
         width:10rem;
         text-align:center;
@@ -610,7 +609,6 @@ button{
         }
       
       .product{
-        /* background:pink; */
         font-size:1rem;
        }
 
@@ -619,7 +617,6 @@ button{
        }
 
       input[type="text"],input[type="number"]{
-       /* background:pink; */
        width:18.43rem;
        height:1.56rem;
        border-color: lightgray;
@@ -673,7 +670,6 @@ button{
     } 
     
     .select{
-      /* background:pink; */
       border-color: lightgray;
       border-radius: 0rem;
       font-size:0.5rem;
@@ -688,7 +684,6 @@ button{
      }
 
      .commodityAttributesInput{
-        /* background:pink; */
         width:13.4rem !important;
     }
 
@@ -704,7 +699,7 @@ button{
      }
      
      #productSupplierId{
-      /* background:pink; */
+      
       margin-right:-0.1rem;
      }
 

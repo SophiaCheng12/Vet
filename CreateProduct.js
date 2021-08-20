@@ -6,69 +6,67 @@ const searchBtn = document.querySelector('.searchBtn')
 const clearBtn = document.querySelector('.clearBtn')
 const submitBtn = document.querySelector('.submitBtn')
 console.log(submitBtn)
-navbarTitle.addEventListener('click',active)
- totalBtn.addEventListener('click', buttonActive)
+navbarTitle.addEventListener('click', active)
+totalBtn.addEventListener('click', buttonActive)
 
 const functionLists = [
-   '其他功能','其他功能','其他功能','其他功能','其他功能','其他功能','其他功能','其他功能'
+  '其他功能', '其他功能', '其他功能', '其他功能', '其他功能', '其他功能', '其他功能', '其他功能'
 ]
 
 
 let list = ''
 
 
-function active(){
-    navbarTitle.classList.toggle('active')
+function active() {
+  navbarTitle.classList.toggle('active')
 }
 
-function buttonActive(e){
+function buttonActive(e) {
 
-if(e.target.matches('.searchBtn')){
-  console.log('ok1')
-  searchBtn.classList.toggle('buttonActive')
-}else{
-  searchBtn.classList.remove('buttonActive')
+  if (e.target.matches('.searchBtn')) {
+    console.log('ok1')
+    searchBtn.classList.toggle('buttonActive')
+  } else {
+    searchBtn.classList.remove('buttonActive')
+  }
+
+  if (e.target.matches('.clearBtn')) {
+    clearBtn.classList.toggle('buttonActive')
+  } else {
+    clearBtn.classList.remove('buttonActive')
+  }
+
+  if (e.target.matches('.submitBtn')) {
+    submitBtn.classList.toggle('buttonActive')
+  } else {
+    submitBtn.classList.remove('buttonActive')
+  }
 }
 
-if(e.target.matches('.clearBtn')){
-  clearBtn.classList.toggle('buttonActive')
-}else{
-  clearBtn.classList.remove('buttonActive')
-}
 
-if(e.target.matches('.submitBtn')){
-  submitBtn.classList.toggle('buttonActive')
-}else{
-  submitBtn.classList.remove('buttonActive')
-}
-}
+for (i = 0; i < functionLists.length; i++) {
 
-
-for(i=0; i<functionLists.length; i++){
-    
-    const content2 = '<li class="nav-item"><a class="nav-link navItemColor" href="#">' + '<span class="navItemColor">'+functionLists[i]+'</span>' + '</a></li>';
-    list += content2
+  const content2 = '<li class="nav-item"><a class="nav-link navItemColor" href="#">' + '<span class="navItemColor">' + functionLists[i] + '</span>' + '</a></li>';
+  list += content2
 }
 navbarContent.innerHTML = list
 
 
 
-// const newEllipsis = [...ellipsis] 
+
 const newEllipsis = Array.from(ellipsis)
-// console.log(newEllipsis)
 
-for(i=0; i<newEllipsis.length; i++){
-//  console.log('items',newEllipsis[i].innerHTML)
 
+for (i = 0; i < newEllipsis.length; i++) {
   let productContentTitle = newEllipsis[i].innerHTML
   let productContentSplit = productContentTitle.split(" ")
- 
-  const productContentSlice = productContentSplit.slice(0,3)
+
+  const productContentSlice = productContentSplit.slice(0, 3)
   productContentTitle = productContentSlice.join(" ") + '\xa0' + '......'
   // console.log('productContentTitle', productContentTitle)
-  
+
   newEllipsis[i].innerHTML = productContentTitle
- }
+}
 
 
 
