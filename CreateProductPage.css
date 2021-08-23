@@ -1,0 +1,686 @@
+/* css reset */
+*{
+  box-sizing: border-box;
+  font-family:'Roboto';
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* / HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+} 
+ ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+img{
+  max-width:100%;
+  height:auto;
+}
+
+
+
+/* CreateProductPage */
+
+/* nav */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} 
+ */
+
+.createProductTitle{
+  /* background-color: pink; */
+  height:4.84rem;
+  border-bottom:6.6px solid #F2AF44;
+}
+
+.title{
+  width:100%;
+  /* border:1px solid red; */
+  margin-top:1.43rem;
+}
+
+.title P{
+  font-size:1.75rem;
+  font-weight:900;
+}
+
+
+
+/* main */
+
+.informationForm{
+  border:2px solid blue;
+  width:90%;
+  margin-left:4.5rem;
+}
+
+.basicInformationTitle{
+  margin-top:1.25rem;
+  margin-bottom:0.93rem;
+  color: #F2AF44;
+  font-size: 1.38rem;
+  font-weight:bold;
+}
+
+.basicInformationInput{
+  display:flex;
+}
+
+select::-ms-expand{
+  display:none
+} 
+
+.select{
+  border:1px solid yellow;
+  border-color: lightgray;
+  border-radius: 0rem;
+  font-size:0.5rem;
+  padding-bottom:0rem;
+  width:13.93rem;
+  height:1.88rem;
+  outline: none;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  -ms-appearance:none;
+  background:url('./Img/Polygon 1.png')no-repeat 97% center;
+  padding-right:3rem;
+} 
+
+ select.form-control:focus {
+  border-color: #ccc;
+  outline: none;
+  box-shadow: none;
+}
+
+input[type="text"],input[type="number"]{
+  /* background:pink; */
+  width:13.93rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+input.form-control:focus {
+  border-color: #ccc;
+  outline: none;
+  box-shadow: none;
+}
+
+.basicInformationInputName{
+  font-size: 1.13rem;
+  font-weight:900;
+  color:#3E414F;
+}
+
+.basicName{
+  margin-right:2.72rem;
+}
+
+.basicInformationCode{
+  margin-right:2.72rem;
+}
+
+.basicInformationCategory{
+  margin-left:1.46rem;
+}
+
+.basicPrice{
+   margin-left:1.46rem;
+}
+
+.basicInformationUnit {
+   margin-left:2rem;
+   margin-right:2.6rem;
+}
+
+.basicInformationCertificate{
+ margin-left:2rem;
+ margin-right:0.4rem;
+}
+
+.otherInformationTitle{
+ margin-top:2.81rem;
+  margin-bottom:0.93rem;
+  color: #F2AF44;
+  font-size: 1.38rem;
+  font-weight:bold;
+}
+
+.otherInformationInput{
+  display:flex;
+}
+
+.otherInformationDescriptionRelative{
+  position:relative;
+}
+
+.otherInformationDescriptionTitle{
+  margin-right:2.8rem;
+  position:absolute;
+  top:0.1rem;
+}
+
+.otherInformationDescriptionInput{
+  width:54.2rem !important;
+  height:4.25rem !important;
+  margin-left:5.9rem;
+  }
+
+.inquireBtn{
+  background-color:#F2AF44;
+  width:2.5rem;
+  height:1.3rem;
+  border-radius: 0rem;
+  font-size:0.88rem;
+  font-weight:400;
+  white-space: nowrap;
+  line-height:1.03rem;
+  position:relative;
+  margin-left:0.38rem;
+  margin-top:-0.2rem;
+  color:white;
+}
+
+.buttonWord{
+ position:absolute;
+ left:0.38rem;
+ top:0.1rem;
+}
+
+.removeBtn{
+  background-color:#F2AF44;
+  width:2.5rem;
+  height:1.3rem;
+  border-radius: 0rem;
+  font-size:0.88rem;
+  font-weight:400;
+  white-space: nowrap;
+  line-height:1.03rem;
+  position:relative;
+  margin-left:0.38rem;
+  margin-top:-0.2rem;
+  color:white;
+}
+
+.removeButtonWord{
+  position:absolute;
+  left:0.38rem;
+  top:0.1rem;
+}
+
+button{
+  border-color: #ccc !important;
+  outline:0 !important;
+  box-shadow: none !important;
+}
+
+.otherInternationalBarcode{
+  margin-right:0.6rem;
+}
+
+.otherOldCode{
+   margin-right:1.7rem;
+}
+
+.otherInformationAttribute{
+   margin-left:1.46rem;
+}
+
+.otherInformationColor{
+  margin-left:1.46rem;
+}
+
+.otherInformationSupplier{
+   margin-left:2rem;
+   margin-right:1.4rem;
+}
+
+.otherInformationBrand{
+  margin-left:2rem;
+  margin-right:2.5rem;
+}
+
+
+
+@media screen and (max-width: 1184px){
+.informationForm{
+  border:2px solid green;
+  width:100%;
+  margin-left:0rem;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1088px){
+  .informationForm{
+  border:2px solid red;
+  width:100%;
+  margin-left:0rem;
+}
+
+.select{
+  width:10rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  /* background:pink; */
+  width:10rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+.basicName{
+  margin-right:0rem;
+}
+
+.basicInformationCode{
+  margin-right:0rem;
+}
+
+.basicInformationCategory{
+  margin-left:1.46rem;
+}
+
+.basicPrice{
+   margin-left:1.46rem;
+}
+
+.basicInformationUnit {
+   margin-left:2.3rem;
+   margin-right:2.6rem;
+}
+
+.basicInformationCertificate{
+ margin-left:2.3rem;
+ margin-right:0.4rem;
+}
+
+.otherInformationDescriptionInput{
+  width:42.5rem !important;
+  height:4.25rem !important;
+  margin-left:5.9rem;
+  }
+}
+
+@media screen and (max-width:54.85rem){
+.informationForm{
+  border:2px solid orange;
+  width:100%;
+  margin-left:0rem;
+}
+
+.basicInformationUnit {
+   margin-left:2.3rem;
+   margin-right:2.2rem;
+}
+
+.basicInformationCertificate{
+ margin-left:2.3rem;
+ margin-right:0rem;
+}
+
+.otherInternationalBarcode{
+  margin-right:0rem;
+}
+
+.otherOldCode{
+   margin-right: 1.1rem;
+}
+
+.otherInformationAttribute{
+   margin-left:1.46rem;
+}
+
+.otherInformationColor{
+  margin-left:1.46rem;
+}
+
+.otherInformationSupplier{
+   margin-left:2rem;
+   margin-right:0rem;
+}
+
+.otherInformationBrand{
+  margin-left:2rem;
+  margin-right:1.2rem;
+}
+
+.otherInformationButtonRelative{
+  position:relative;
+}
+
+.otherInformationButton{
+   position:absolute;
+   bottom:3rem;
+   right:0.8rem;
+}
+
+.otherInformationDescriptionInput{
+  width:41.2rem !important;
+  height:4.25rem !important;
+  margin-left:5.3rem;
+  }
+}
+
+
+@media screen and (max-width: 46.75rem){
+  .informationForm{
+  border:2px solid pink;
+  width:100%;
+  margin-left:0rem;
+}
+
+.select{
+  width:8rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  
+  width:8rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+.basicName{
+  margin-right:0rem;
+}
+
+.basicInformationCode{
+  margin-right:0rem;
+}
+
+.basicInformationCategory{
+  margin-left:1.46rem;
+}
+
+.basicPrice{
+   margin-left:1.46rem;
+}
+
+.basicInformationUnit {
+   margin-left:2.3rem;
+   margin-right:2.6rem;
+}
+
+.basicInformationCertificate{
+ margin-left:2.3rem;
+ margin-right:0.4rem;
+} 
+
+.otherInformationDescriptionInput{
+  width:35.2rem !important;
+  height:4.25rem !important;
+  margin-left:5.3rem;
+  }
+}
+
+@media screen and (max-width: 40.69rem){
+  .informationForm{
+  border:2px solid red;
+  width:100%;
+  margin-left:0rem;
+}
+
+.select{
+  width:7rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  
+  width:7rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+.otherInformationDescriptionInput{
+  width:32.2rem !important;
+  height:4.25rem !important;
+  margin-left:5.3rem;
+  }
+}
+
+@media screen and (max-width:37.68rem){
+  .informationForm{
+  border:2px solid purple;
+  width:100%;
+  margin-left:0rem;
+}
+
+.basicInformationInput{
+  display:block;
+}
+
+.select{
+  width:20rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  
+  width:20rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+ }
+
+.basicName{
+  margin-right:2.6rem;
+}
+
+.basicInformationCode{
+  margin-right:2.6rem;
+}
+
+.basicInformationCategory{
+  margin-left:0rem;
+  margin-right:2.6rem;
+}
+
+.basicPrice{
+   margin-left:0rem;
+   margin-right:2.6rem;
+}
+
+.basicInformationUnit {
+   margin-left:0rem;
+   margin-right:2.6rem;
+}
+
+.basicInformationCertificate{
+ margin-left:0rem;
+ margin-right:0.4rem;
+} 
+
+.otherInformationInput{
+  display:block;
+}
+
+.otherInternationalBarcode{
+  margin-right:0.5rem;
+}
+
+.otherOldCode{
+   margin-right:1.6rem;
+}
+
+.otherInformationAttribute{
+   margin-left:0rem;
+   margin-right:2.7rem;
+}
+
+.otherInformationColor{
+  margin-left:0rem;
+  margin-right:2.7rem;
+}
+
+.otherInformationSupplier{
+   margin-left:0rem;
+   margin-right:1.6rem;
+}
+
+.otherInformationBrand{
+  margin-left:0rem;
+  margin-right:2.65rem;
+}
+
+.otherInformationDescriptionInput{
+  width:20rem !important;
+  height:4.25rem !important;
+  margin-left:5.8rem;
+  }
+
+  .otherInformationButtonRelative{
+  position:relative;
+}
+
+.otherInformationButton{
+   position:absolute;
+   bottom:0.3rem;
+   right:-6rem;
+}
+
+}
+
+@media screen and (max-width:516px){
+.informationForm{
+  border:2px solid blue;
+  width:100%;
+  margin-left:0rem;
+}
+
+.select{
+  width:16rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  width:16rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+.otherInformationButton{
+   position:absolute;
+   bottom:0.3rem;
+   right:-6rem;
+}
+
+.otherInformationDescriptionInput{
+  width:16rem !important;
+  height:4.25rem !important;
+  margin-left:5.8rem;
+  }
+}
+
+@media screen and (max-width:452px){
+.informationForm{
+  border:2px solid yellow;
+  width:100%;
+  margin-left:0rem;
+}
+
+.select{
+  width:11rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  width:11rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+.otherInformationButton{
+   position:absolute;
+   bottom:0.3rem;
+   right:-6rem;
+}
+
+.otherInformationDescriptionInput{
+  width:11rem !important;
+  height:4.25rem !important;
+  margin-left:5.8rem;
+  }
+}
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:26.06rem){
+  .informationForm{
+  border:2px solid grey;
+  width:100%;
+  margin-left:0rem;
+}
+
+.basicInformationInput{
+  display:block;
+}
+
+.select{
+  width:16rem;
+  height:1.88rem;
+}
+
+input[type="text"],input[type="number"]{
+  width:16rem;
+  height:1.88rem;
+  border-color: lightgray;
+  border-radius: 0rem;
+}
+
+}
+ */
