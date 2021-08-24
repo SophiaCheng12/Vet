@@ -277,17 +277,137 @@ button{
   margin-right:2.5rem;
 }
 
+.otherInformationSaleDate{
+  display:flex;
+  margin-left:0rem;
+  margin-top:2.94rem;
+  }
+
+.otherInformationSaleDateTitle{
+margin-right:1.53rem;
+}
+
+.otherInformationSaleDateInput{
+    width:11.64rem !important; 
+    height:1.88rem !important;
+}
+
+.otherInformationDash{
+  margin-right:0.5rem;
+  margin-left:0.5rem;
+  font-weight:bold;
+}
+
+.otherInformationIfInvalid{
+margin-left: 1.05rem;
+margin-right:2rem;
+}
+
+.otherInformationIfInvalidSelect{
+  width:6.27rem !important; 
+  height:1.88rem !important;
+}
+
+.otherInformationCalendarImgRelative{
+  position:relative;
+}
+
+.otherInformationCalendarImg{
+  position:absolute;
+  left:18rem;
+  top:0.3rem;
+}
+
+.otherInformationCalendarImg2{
+   position:absolute;
+   left:31.5rem;
+   top:0.3rem;
+}
+
+.otherInformationSetPrice{
+  margin-top:1rem;
+}
+
+.otherInformationSetPriceTitle{
+  margin-right:0.3rem;
+}
+
+.discountMerchandise{
+  margin-left:1.81rem;
+  margin-right:2rem;
+}
+
+.otherInformationBatchNumber{
+  margin-left:1.07rem;
+  margin-right:2rem;
+}
+
+.otherInformationInventory{
+  margin-left:1.07rem;
+  margin-right:2rem;
+}
+
+.otherInformationSafetyStock{
+  margin-left:1.07rem;
+  margin-right:2rem;
+}
 
 
-@media screen and (max-width: 1184px){
+
+
+
+/* media */
+@media screen and (max-width: 88.85rem){
+  .informationForm{
+  border:2px solid darkslateblue;
+  width:100%;
+  margin-left:0rem;
+}
+
+.discountMerchandise{
+  margin-left:1.81rem;
+  margin-right:0.3rem;
+}
+
+.otherInformationBatchNumber{
+  margin-left:1.07rem;
+  margin-right:0.3rem;
+}
+
+.otherInformationInventory{
+  margin-left:1.07rem;
+  margin-right:0.3rem;
+}
+
+.otherInformationSafetyStock{
+  margin-left:1.07rem;
+  margin-right:0.3rem;
+}
+}
+
+
+
+
+/* @media screen and (max-width: 1184px){
 .informationForm{
   border:2px solid green;
   width:100%;
   margin-left:0rem;
 }
+} */
+
+@media screen and (max-width: 73.15rem){
+.informationForm{
+  border:2px solid darkorange;
+  width:100%;
+  margin-left:0rem;
 }
 
-
+.otherInformationTitleInput{
+  margin-top:1rem;
+  width:6.5rem !important;
+}
+}
 
 
 
@@ -405,6 +525,60 @@ input[type="text"],input[type="number"]{
   }
 }
 
+@media screen and (max-width: 48.20rem){
+.informationForm{
+  border:2px solid darkcyan;
+  width:100%;
+  margin-left:0rem;
+}
+
+.otherInformationSaleDate{
+  display:flex;
+  margin-left:0rem;
+  margin-top:2.94rem;
+  }
+
+.otherInformationSaleDateTitle{
+margin-right:1.53rem;
+}
+
+.otherInformationSaleDateInput{
+    width:9.64rem !important; 
+    height:1.88rem !important;
+}
+
+.otherInformationDash{
+  margin-right:0.5rem;
+  margin-left:0.5rem;
+  font-weight:bold;
+}
+
+.otherInformationIfInvalid{
+margin-left: 1.05rem;
+margin-right:0rem;
+}
+
+.otherInformationIfInvalidSelect{
+  width:5rem !important; 
+  height:1.88rem !important;
+}
+
+.otherInformationCalendarImgRelative{
+  position:relative;
+}
+
+.otherInformationCalendarImg{
+  position:absolute;
+  left:16rem;
+  top:0.3rem;
+}
+
+.otherInformationCalendarImg2{
+   position:absolute;
+   left:27.5rem;
+   top:0.3rem;
+}
+}
 
 @media screen and (max-width: 46.75rem){
   .informationForm{
@@ -458,6 +632,57 @@ input[type="text"],input[type="number"]{
   margin-left:5.3rem;
   }
 }
+
+@media screen and (max-width: 40.99rem){
+.informationForm{
+  border:2px solid darkolivegreen;
+  width:100%;
+  margin-left:0rem;
+}
+
+.otherInformationSaleDateTitle{
+margin-right:1.53rem;
+}
+
+.otherInformationSaleDateInput{
+    width:8rem !important; 
+    height:1.88rem !important;
+}
+
+.otherInformationDash{
+  margin-right:0.5rem;
+  margin-left:0.5rem;
+  font-weight:bold;
+}
+
+.otherInformationIfInvalid{
+margin-left: 1.05rem;
+margin-right:0rem;
+}
+
+.otherInformationIfInvalidSelect{
+  width:5rem !important; 
+  height:1.88rem !important;
+}
+
+.otherInformationCalendarImgRelative{
+  position:relative;
+}
+
+.otherInformationCalendarImg{
+  position:absolute;
+  left:14.3rem;
+  top:0.3rem;
+}
+
+.otherInformationCalendarImg2{
+   position:absolute;
+   left:24.2rem;
+   top:0.3rem;
+}
+
+}
+
 
 @media screen and (max-width: 40.69rem){
   .informationForm{
@@ -586,9 +811,55 @@ input[type="text"],input[type="number"]{
    right:-6rem;
 }
 
+.otherInformationSaleDate{
+  display:block;
+  margin-left:0rem;
+  margin-top:2.94rem;
+  }
+
+.otherInformationSaleDateInput{
+    width:8.1rem !important; 
+    height:1.88rem !important;
 }
 
-@media screen and (max-width:516px){
+.otherInformationDash{
+  margin-right:0.3rem;
+  margin-left:0.3rem;
+  font-weight:bold;
+}
+
+.otherInformationIfInvalid{
+margin-left: 0rem;
+margin-right:2.6rem;
+/* margin-top:2rem; */
+}
+
+.otherInformationIfInvalidSelect{
+  width:6.27rem !important; 
+  height:1.88rem !important;
+  margin-top:1rem !important;
+}
+
+.otherInformationCalendarImgRelative{
+  position:relative;
+}
+
+.otherInformationCalendarImg{
+  position:absolute;
+  left:14.5rem;
+  top:0.3rem;
+}
+
+.otherInformationCalendarImg2{
+   position:absolute;
+   left:24.1rem;
+   top:0.3rem;
+} 
+
+
+}
+
+@media screen and (max-width:531px){
 .informationForm{
   border:2px solid blue;
   width:100%;
@@ -618,6 +889,47 @@ input[type="text"],input[type="number"]{
   height:4.25rem !important;
   margin-left:5.8rem;
   }
+
+  .otherInformationSaleDateInput{
+    width:6.1rem !important; 
+    height:1.88rem !important;
+}
+
+.otherInformationDash{
+  margin-right:0.3rem;
+  margin-left:0.3rem;
+  font-weight:bold;
+}
+
+.otherInformationIfInvalid{
+margin-left: 0rem;
+margin-right:2.6rem;
+/* margin-top:2rem; */
+}
+
+.otherInformationIfInvalidSelect{
+  width:5rem !important; 
+  height:1.88rem !important;
+  margin-top:1rem !important;
+}
+
+.otherInformationCalendarImgRelative{
+  position:relative;
+}
+
+.otherInformationCalendarImg{
+  position:absolute;
+  left:12.5rem;
+  top:0.3rem;
+}
+
+.otherInformationCalendarImg2{
+   position:absolute;
+   left:20.1rem;
+   top:0.3rem;
+} 
+
+
 }
 
 @media screen and (max-width:452px){
@@ -642,7 +954,7 @@ input[type="text"],input[type="number"]{
 .otherInformationButton{
    position:absolute;
    bottom:0.3rem;
-   right:-6rem;
+   right:-1rem;
 }
 
 .otherInformationDescriptionInput{
