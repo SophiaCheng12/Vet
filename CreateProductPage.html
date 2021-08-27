@@ -30,10 +30,10 @@
     <div class="main">
 
 
-
-      <div class="informationForm container-fluid">
-        <div class="row">
-          <form class="form">
+      <form class="form">
+        <div class="informationForm container-fluid">
+          <div class="row">
+            <!-- container-fluid -->
 
 
             <div class="basicInformation">
@@ -147,7 +147,7 @@
                   <div class="form-group">
                     <span class="basicInformationInputName otherInternationalBarcode">國際條碼 :</span>
                     <label for="basicInformationProductName">
-                      <input type="text" class="form-control" id="basicInformationProductName">
+                      <input type="number" class="form-control" id="basicInformationProductName">
                     </label>
                   </div>
 
@@ -201,8 +201,7 @@
                   <div class="form-group otherInformationButtonRelative">
                     <span class="basicInformationInputName otherInformationSupplier">供應商 :</span>
                     <label for="exampleInputPassword4">
-                      <input type="number" class="form-control otherInformationSupplierInput"
-                        id="exampleInputPassword4">
+                      <input type="text" class="form-control otherInformationSupplierInput" id="exampleInputPassword4">
                     </label>
 
                     <span class=" otherInformationButton">
@@ -249,7 +248,7 @@
                 <span class="basicInformationInputName otherInformationDescriptionTitle">描述 :</span>
 
                 <label for="exampleInputPassword5">
-                  <input type="number" class="form-control otherInformationDescriptionInput" id="exampleInputPassword5">
+                  <input type="text" class="form-control otherInformationDescriptionInput" id="exampleInputPassword5">
                 </label>
 
               </div>
@@ -431,8 +430,7 @@
                   <div class="form-group otherInformationButtonRelative otherInformationPurchase">
                     <span class="basicInformationInputName otherInformationPurchaseTitle">進貨科目 :</span>
                     <label for="exampleInputPassword4">
-                      <input type="number" class="form-control otherInformationPurchaseInput"
-                        id="exampleInputPassword4">
+                      <input type="text" class="form-control otherInformationPurchaseInput" id="exampleInputPassword4">
                     </label>
 
                     <span class="otherInformationButton otherInformationSubjectsButton">
@@ -456,7 +454,7 @@
                   <div class="form-group otherInformationButtonRelative">
                     <span class="basicInformationInputName otherInformationSalesTitle">銷貨科目 :</span>
                     <label for="exampleInputPassword4">
-                      <input type="number" class="form-control  otherInformationSalesInput" id="exampleInputPassword4">
+                      <input type="text" class="form-control  otherInformationSalesInput" id="exampleInputPassword4">
                     </label>
 
                     <span class=" otherInformationButton otherInformationSubjectsButton">
@@ -559,8 +557,9 @@
                         class="basicInformationInputName otherInformationBoxNumber otherInformationUnitGrossWeight">單位毛重
                         :</span>
                       <label for="exampleInputPassword3">
-                        <input type="text" class="form-control otherInformationBoxNumberInput"
-                          id="exampleInputPassword3">
+                        <input type="text"
+                          class="form-control otherInformationBoxNumberInput otherInformationUnitWeightInput"
+                          id="exampleInputPassword3" placeholder="">
                       </label>
 
                     </div>
@@ -591,8 +590,8 @@
                         class="basicInformationInputName otherInformationBoxNumber otherInformationUnitNetWeight">單位淨重
                         :</span>
                       <label for="exampleInputPassword3">
-                        <input type="text" class="form-control otherInformationBoxNumberInput"
-                          id="exampleInputPassword3">
+                        <input type="text" class="form-control otherInformationBoxNumberInput
+                        otherInformationUnitWeightInput" id="exampleInputPassword3" placeholder="">
                       </label>
 
                     </div>
@@ -620,8 +619,8 @@
                     <div>
                       <span class="basicInformationInputName otherInformationVolume">材積 :</span>
                       <label for="exampleInputPassword3">
-                        <input type="text" class="form-control otherInformationBoxNumberInput"
-                          id="exampleInputPassword3">
+                        <input type="text" class="form-control otherInformationBoxNumberInput
+                        otherInformationVolumeInput" id="exampleInputPassword3" placeholder="">
                       </label>
 
                     </div>
@@ -672,77 +671,22 @@
                   </div>
 
 
+                </div>
+
+                <div class="otherInformationUploadPhoto">
+
+                  <span class="basicInformationInputName otherInformationProductPicture">商品圖片</span>
+                  <img src="/Img/arrow.png" alt="">
 
 
-
-
-
-
-
-
+                  <span class="otherInformationUploadPhotoTitle">上傳照片</span>
 
 
 
                 </div>
+
               </div>
               <!-- otherInformationInputPart4 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             </div>
             <!-- /otherInformation -->
@@ -751,79 +695,20 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            <!-- <div class="totalBtn">
-                <button type="button" class="btn searchFormBtn searchBtn buttonActive mt-3 mr-2">搜尋</button>
-                <button type="button" class="btn searchFormBtn clearBtn  mt-3 mr-2">清除</button>
-                <button type="button" class="btn searchFormBtn submitBtn mt-3 mr-2">匯出表格</button>
-              </div> -->
-          </form>
+          </div>
         </div>
-      </div>
-      <!-- informationForm -->
+        <!-- informationForm -->
 
 
 
 
+        <div class="informationTotalBtn">
+          <button type="button" class="btn informationCreateBtn informationButtonActive">新增</button>
+          <button type="button" class="btn informationCancelBtn">取消</button>
+        </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </form>
 
 
 
