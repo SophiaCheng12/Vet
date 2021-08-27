@@ -1735,7 +1735,7 @@ margin-right:3.2rem;
 
 
 
-@media screen and (max-width:36.50rem){
+@media screen and (max-width:37.50rem){
 .informationForm{
   border:2px solid blue;
   width:90%;
@@ -1895,7 +1895,7 @@ margin-right:3.5rem;
 }
 }
 
-@media screen and (max-width:32rem){
+@media screen and (max-width:32.99rem){
 .informationForm{
   border:2px solid yellow;
   width:90%;
@@ -1915,13 +1915,13 @@ input[type="text"],input[type="number"]{
 }
 
 .otherInformationSupplierInput{
-   width:11rem !important;
+   width:11.2rem !important;
 }
 
 .otherInformationButton{
    position:absolute;
    bottom:0.3rem;
-   right:0.65rem !important;
+   right:0.1rem !important;
 }
 
 .otherInformationDescriptionInput{
@@ -1983,7 +1983,7 @@ margin-right:3.5rem;
 }
 
 .otherInformationPurchaseInput,.otherInformationSalesInput{
-  width:8.3rem  !important;
+  width:8.5rem  !important;
 }
 
 .otherInformationSaleCurrencyInput{
