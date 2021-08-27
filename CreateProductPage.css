@@ -51,6 +51,11 @@ img{
   height:auto;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 
 /* CreateProductPage */
@@ -1361,7 +1366,7 @@ width:6rem !important;
 
 @media screen and (max-width:41.50rem){
   .informationForm{
-  border:2px solid purple;
+  /* border:2px solid purple; */
   width:90%;
   margin:0 auto;
 }
@@ -1479,7 +1484,7 @@ input[type="text"],input[type="number"]{
 
 .otherInformationIfInvalid{
 margin-left: 0rem;
-margin-right:3.4rem;
+margin-right:3.5rem;
 }
 
 .otherInformationIfInvalidSelect{
@@ -1529,7 +1534,7 @@ margin-right:3.4rem;
 
 .otherInformationBatchNumber{
   margin-left:0rem;
-  margin-right:2.3rem;
+  margin-right:2.4rem;
 }
 
 .otherInformationInventory{
@@ -1644,7 +1649,7 @@ margin-right:3.2rem;
 
 .otherInformationCostCalculation{
  margin-left:0rem;
- margin-right:1.2rem;
+ margin-right:1rem;
 }
 
 .otherInformationTaxCategory{
@@ -1659,11 +1664,11 @@ margin-right:3.2rem;
 .otherInformationCostCalculationInput{
   margin-top:1rem;
   margin-bottom:1rem;
-  width:17.50rem  !important;
+  width:17.59rem  !important;
 }
 
 .otherInformationTaxCategoryInput{
-  width:17.50rem  !important;
+  width:17.54rem  !important;
 }
 
 .otherInformationInputPart3{
@@ -1684,10 +1689,11 @@ margin-right:3.2rem;
 
 .otherInformationCalculationTitle{
   margin-left:0rem !important;
+  margin-right:4.1rem !important;
 }
 
 .otherInformationCalculationInput{
-  width:5.1rem !important;
+  width:5.15rem !important;
 }
 
 .otherInformationBoxNumber{
@@ -1737,7 +1743,7 @@ margin-right:3.2rem;
 
 @media screen and (max-width:37.50rem){
 .informationForm{
-  border:2px solid blue;
+  /* border:2px solid blue; */
   width:90%;
   margin:0 auto;
 }
@@ -1883,11 +1889,16 @@ margin-right:3.5rem;
 }
 
 .otherInformationTaxCategoryInput{
-  width:13.50rem  !important;
+  width:13.51rem  !important;
 }
 
 .otherInformationBoxNumberInput{
   width:13.50rem !important;
+}
+
+.otherInformationCostCalculation{
+ margin-left:0rem;
+ margin-right:1.1rem !important;
 }
 
 .otherInformationCalculationInput{
@@ -1897,7 +1908,7 @@ margin-right:3.5rem;
 
 @media screen and (max-width:32.99rem){
 .informationForm{
-  border:2px solid yellow;
+  /* border:2px solid yellow; */
   width:90%;
   margin:0 auto;
 }
@@ -2010,7 +2021,7 @@ margin-right:3.5rem;
 
 @media screen and (max-width:25.60rem){
 .informationForm{
-  border:2px solid PINK;
+  /* border:2px solid PINK; */
   width:100%;
   margin:0 auto;
 }
