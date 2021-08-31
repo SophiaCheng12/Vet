@@ -61,12 +61,6 @@ body::-webkit-scrollbar {
 /* CreateProductPage */
 
 /* nav */
-/* * {
-  background: #000 !important;
-  color: #0f0 !important;
-  outline: solid #f00 1px !important;
-} 
- */
 
 .createProductTitle{
   /* background-color: pink; */
@@ -526,7 +520,7 @@ margin-left:0.9rem;
 }
 
 .otherInformationVolumeInput{
-   /* text-indent:3.5rem; */
+  
   background: url('./Img/cbm.png') no-repeat;
   background-position-X:90%;
   background-position-Y:70%;
@@ -547,7 +541,7 @@ margin-left:0.9rem;
   /* border:2px solid darkslateblue; */
   width:95%;
   margin-left:3rem;
-  /* margin-left:0rem; */
+  
 }
 
 .discountMerchandise{
@@ -1471,7 +1465,7 @@ input[type="text"],input[type="number"]{
   }
 
 .otherInformationSaleDateInput{
-    width:8.05rem !important; 
+    width:8.06rem !important; 
     height:1.88rem !important;
      margin-left:2.4rem !important;
 }
@@ -1644,7 +1638,7 @@ margin-right:3.2rem;
 }
 
 .otherInformationSaleCurrencyTitle{
-  margin-right:3.2rem;
+  margin-right:3.1rem;
 } 
 
 .otherInformationCostCalculation{
@@ -1654,11 +1648,11 @@ margin-right:3.2rem;
 
 .otherInformationTaxCategory{
  margin-left:0rem;
- margin-right:3.2rem;
+ margin-right:3.1rem;
 } 
 
 .otherInformationSaleCurrencyInput{
-  width:17.50rem  !important;
+  width:17.60rem  !important;
 }
 
 .otherInformationCostCalculationInput{
@@ -1668,7 +1662,7 @@ margin-right:3.2rem;
 }
 
 .otherInformationTaxCategoryInput{
-  width:17.54rem  !important;
+  width:17.59rem  !important;
 }
 
 .otherInformationInputPart3{
@@ -1684,7 +1678,7 @@ margin-right:3.2rem;
 }
 
 .otherInformationBoxNumberInput{
-  width:17.50rem !important;
+  width:17.60rem !important;
 }
 
 .otherInformationCalculationTitle{
@@ -1697,9 +1691,9 @@ margin-right:3.2rem;
 }
 
 .otherInformationBoxNumber{
-  margin-right:1.7rem;
+  
   margin-left:0rem;
-   margin-right:3.2rem;
+   margin-right:3.1rem;
  
 }
 
@@ -1893,12 +1887,12 @@ margin-right:3.5rem;
 }
 
 .otherInformationBoxNumberInput{
-  width:13.50rem !important;
+  width:13.51rem !important;
 }
 
 .otherInformationCostCalculation{
  margin-left:0rem;
- margin-right:1.1rem !important;
+ margin-right:1rem !important;
 }
 
 .otherInformationCalculationInput{
